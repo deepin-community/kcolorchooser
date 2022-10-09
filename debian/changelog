@@ -1,0 +1,367 @@
+kcolorchooser (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 15:53:51 +0900
+
+kcolorchooser (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 28 Apr 2021 10:00:43 +0900
+
+kcolorchooser (4:20.12.1-1) unstable; urgency=medium
+
+  * New upstream release (20.12.1).
+  * Update build dependencies according to the upstream build system:
+    - Qt >= 5.10
+  * Refresh copyright information.
+  * Bump Standards-Version to 4.5.1, no change required.
+  * Refresh upstream metadata.
+  * Update project homepage.
+  * Removed Eshat Cakar, Maximiliano Curia from the uploaders, thanks
+    for your work on the package!
+  * Added myself to the uploaders.
+  * Refresh lintian overrides : binary-without-manpage tag renamed to
+    no-manual-page.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 08 Jan 2021 01:01:06 +0100
+
+kcolorchooser (4:20.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Aurélien COUDERC ]
+  * Remove deprecated Name field from upstream metadata
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Add the configuration for the CI on salsa.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 22 Aug 2020 09:13:01 +0200
+
+kcolorchooser (4:20.04.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release (20.04.2).
+  * Bump Standards-Version to 4.5.0 (no change required).
+  * Bump debhelper compatibility level to 13.
+  * Add Bug-* URLs to upstream metadata.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 15 Jun 2020 14:22:59 +0200
+
+kcolorchooser (4:19.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Aurélien COUDERC ]
+  * New upstream release (19.12.1).
+  * Update watch file to new KDE release service URL.
+  * Bump build dependencies according to upstream build system:
+    - cmake >= 3.5
+    - Qt >= 5.7.0
+    - ECM >= 5.30.0
+    - KF5 dependencies >= 5.30.0
+  * Refresh debian/copyright.
+  * debian/control:
+    - Move to debhelper-compat build dep, bump level to 12.
+    - Add Rules-Requires-Root: no.
+    - Update upstream project URL.
+  * Borrow minimal upstream signing key from k3b.
+  * Drop l10n migration rules not needed anymore after 2 stable releases.
+  * debian/rules:
+    - Move from dhmk to dh --with kf5.
+    - Activate hardening=+all build flag.
+  * Bump Standards-Version to 4.4.1 (no change required).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 10 Jan 2020 19:19:36 +0100
+
+kcolorchooser (4:18.04.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.04.1).
+  * Update Vcs links to salsa.
+  * Use secure copyright format uri.
+  * Bump Standards-Version to 4.1.4 (No changes needed).
+  * Bump debhelper build-dep and compat to 11.
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 23 May 2018 01:10:21 +0200
+
+kcolorchooser (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * New upstream release.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
+  * Bump Standards-Version to 4.1.1, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Drop old kcoloredit breaks/replaces, since it has no files in common with
+    it, and this could allow kcoloredit back in the archive.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 26 Nov 2017 15:05:04 +0100
+
+kcolorchooser (4:17.08.1-1) experimental; urgency=medium
+
+  * New upstream release (17.08.1)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 22:41:17 +0200
+
+kcolorchooser (4:17.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Sep 2017 13:59:47 +0000
+
+kcolorchooser (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:33:49 +0000
+
+kcolorchooser (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:20:13 +0000
+
+kcolorchooser (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:20:59 +0000
+
+kcolorchooser (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:14:10 +0000
+
+kcolorchooser (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:03:26 +0000
+
+kcolorchooser (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:47:42 +0000
+
+kcolorchooser (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:57:25 +0000
+
+kcolorchooser (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:16:52 +0000
+
+kcolorchooser (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:25:39 +0000
+
+kcolorchooser (4:16.08.3-1) unstable; urgency=medium
+
+  * New upstream release (16.08.3)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:06:07 +0100
+
+kcolorchooser (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:52:57 +0000
+
+kcolorchooser (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:39:15 +0000
+
+kcolorchooser (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:06:14 +0000
+
+kcolorchooser (4:16.08.0-1) unstable; urgency=medium
+
+  * New upstream release (16.08.0)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:17:17 +0200
+
+kcolorchooser (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:48:12 +0000
+
+kcolorchooser (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:38:54 +0000
+
+kcolorchooser (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Jul 2016 12:16:24 +0000
+
+kcolorchooser (4:16.04.0-2) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Remove unused kde-sc-dev-latest and kdelibs5-dev build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Jun 2016 11:06:27 +0200
+
+kcolorchooser (4:16.04.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 16:49:19 +0200
+
+kcolorchooser (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:22 +0100
+
+kcolorchooser (4:15.04.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release (15.04.3).
+  * Add lintian overrides.
+
+ -- Jeremy Lainé <jeremy.laine@m4x.org>  Tue, 28 Jul 2015 15:57:59 +0200
+
+kcolorchooser (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 11:52:05 +0100
+
+kcolorchooser (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:58:00 -0800
+
+kcolorchooser (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 16:25:59 +0100
+
+kcolorchooser (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release candidate.
+  * Fix watch urls for new release location.
+  * Update Vcs urls for the new repository location.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update the maintainer.
+  * PPA build
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 21:31:14 +0100
+
+kcolorchooser (4:4.11.3-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 3.9.5, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Apr 2014 11:21:14 +0200
+
+kcolorchooser (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 12:38:32 +0100
+
+kcolorchooser (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 12:14:58 +0200
+
+kcolorchooser (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 09:22:38 +0200
+
+kcolorchooser (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Update vcs fields.
+  * Add myself to uploaders.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 13:59:01 +0200
+
+kcolorchooser (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add me to uploaders.
+  * Bump build-deps.
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 17:14:50 +0000
+
+kcolorchooser (4:4.8.4-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency to 4.8.4.
+  * Bump kdelibs5-dev build dependency to 4.8.
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * Add watch file.
+  * Convert copyright to copyright-format v1.0 and fix/update.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 16 Jun 2012 17:20:12 +0200
+
+kcolorchooser (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 06 Mar 2012 22:19:33 +0100
+
+kcolorchooser (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Eshat Cakar ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:39:00 +0100
+
+kcolorchooser (4:4.7.2-1) experimental; urgency=low
+
+  [ Eshat Cakar ]
+  * Initial release. Start from the Kubuntu packaging, thanks!
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:43:45 -0300
